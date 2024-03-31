@@ -1,35 +1,31 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+.bg-peace-grey{
+  background: var(--peace-grey);
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+.bg-peace-yellow{
+  background: var(--peace-yellow);
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.text-peace-grey{
+  color: var(--peace-grey);
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.text-peace-yellow{
+  color: var(--peace-yellow);
 }
+
+.border-peace-grey{
+  border-color: var(--peace-grey);
+}
+
+.border-peace-yellow{
+  border-color: var(--peace-yellow);
+}
+
+
+
+.text-white{
+  color: #fafafa;
+} 
