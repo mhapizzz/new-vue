@@ -4,6 +4,7 @@ import Post from "@/components/Post.vue";
 import Home from "@/components/Home.vue";
 import ContactUs from "@/components/ContactUs.vue";
 import UserDetail from "@/components/UserDetail.vue";
+import LatestWork from "@/components/LatestWork.vue";
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: "/contact-us",
     name: "ContactUs",
     component: ContactUs,
+  },
+  {
+    path: "/latest-work",
+    name: "LatestWork",
+    component: LatestWork,
   },
 ];
 
